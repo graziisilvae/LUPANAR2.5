@@ -1,23 +1,25 @@
-import React from 'react';
-import '../compohome/cardapio.css';
-import Footer from './Footer';
+import '../compohome/cardapio.css'
 
-
-function Cardapio() {
+const Cardapio = () => {
     return(
-        <div className='carda'>
-        <p>Perae</p>
+        <section className="topo">
+          <div className="carda">
+            <h1>Apresentando nosso Cardápio!</h1>
+            <hr></hr>
+          </div>
+      <div className="almo">
+        
 
-<h1>Nosso Cardápcardapi</h1>       
+      </div>
+      <div className="Lanches">
+      
 
-Apresentando nosso Cardaápio!</div>
-
-
-
-
-
-
-);
+      </div>
+      <div className="Tira Gostos">
+      </div>
+      
+    </section>
+    )
 }
 
 export default Cardapio;

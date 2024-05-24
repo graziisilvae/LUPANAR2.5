@@ -21,6 +21,7 @@ function Home() {
             </li>
             <li className="card-large card-dark card-wide" id="serv-board">
               <div className="card-image"></div>
+              
               <ul>
                 <span className="subtitle">Aperitivos e Bebidas</span>
                 <li><a href="#">Dos mais diversos pensados de acordo com as suas preferências individuais, oferecendo as recomendações mais acessíveis.</a></li>

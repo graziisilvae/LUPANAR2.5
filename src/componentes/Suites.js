@@ -1,19 +1,18 @@
-
 function Suites() {
-    return (
+return (
       
 <div className="quartos">
 
-<img src={require('../quarto1.jpg')} alt="" />
-<img src={require('../quarto2.jpg')} alt="" />
-<img src={require('../assets/LOGO LUPANAR OFC 1.png')} alt="" />
+<img src={require('../assets/quarto1.png')} alt="" />
+<img src={require('../assets/quarto2.png')} alt="quarto2" />
+<img src={require('../assets/quarto3.png')} alt="quarto3" />
        
-  
 </div>
+
 
     );
   }
   
-  export default Suites;
+export default Suites;
   
   

@@ -1,10 +1,10 @@
 :root {
-  --text-01: #C20505;
-  --light-01: #F9F9F9;
+  --text-01: #6D492C;
+  --light-01: #E0CAA6;
   --light-02: #FFFFFF;
-  --brand-01: #C20505;
+  --brand-01: #6D492C;
   --brand-02: #ffffff;
-  --card-hover: #A90000;
+  --card-hover: #6D492C;
   --card-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
   --hover-timing: all 0.2s ease;
   --nav-card-size: 240px;

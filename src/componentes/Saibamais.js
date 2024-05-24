@@ -1,18 +1,16 @@
-import React from 'react';
-import Navbar from './Navbar';
-import saibamais.css  from '.saibamais'
+import '../compohome/saibam.css';
 
-/*<a><img src={require('../')} alt="" /></a> -> colocar img, estão em assets */
 function Saibamais() {
     return (
         <div className="mais">
             <h2>Quem somos</h2>
-            <p>"O Lupana é uma clinica de massoterapia e bar noturno.Trabalhamos com bem-estar dos nossos clentes desde 2024."</p>
-                
-        </div>
-        
-    );
-}
+            <p>"O Lupanar é uma clínica de massoterapia e bar noturno. Trabalhamos com o bem-estar dos nossos clientes, desde 24 de março de 2024."</p>
+            <h2>Estamos localizados em:</h2>
 
-export default Saibamais;
+            <div className='pagsaib'>
+            <img src={require('../assets/saiba+ft.png')} width="200" height="200" />
+            </div>
+            </div>
+            );
+}export default Saibamais;
 
