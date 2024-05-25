@@ -1,0 +1,9 @@
+.quartos > img { 
+display: flex; /* contêiner flexível */
+padding: 15px; /* espaçamento imgs*/
+margin-top: 25px; /* espaçamento acima das imgs*/
+float: left; /* posição á esquerda de forma "fixa" */
+margin-left: 120px; /* margem á esquerda */
+
+
+}

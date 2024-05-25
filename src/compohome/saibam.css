@@ -1,12 +1,9 @@
-.mais > #pagsaib >#img {
-margin-right: 540px;
-height: 703px;
+.mais > #pagsaib {
 display: flex;
-justify-content: right;
+padding: 20px;
+margin-bottom: 10px;
 
 }
 
-.mais > h2{
-font-size: 18;
-}
+
 

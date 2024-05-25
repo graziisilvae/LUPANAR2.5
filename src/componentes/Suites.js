@@ -1,3 +1,5 @@
+import '../compohome/suite.css';
+
 function Suites() {
 return (
       

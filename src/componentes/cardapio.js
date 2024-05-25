@@ -4,18 +4,19 @@ const Cardapio = () => {
     return(
         <section className="topo">
           <div className="carda">
-            <h1>Apresentando nosso Cardápio!</h1>
+            <h1>Apresentando o nosso Cardápio!</h1>
             <hr></hr>
           </div>
-      <div className="almo">
+          
+      <div className="almoco">
         
 
       </div>
-      <div className="Lanches">
+      <div className="lanches">
       
 
       </div>
-      <div className="Tira Gostos">
+      <div className="tiragosto">
       </div>
       
     </section>
