@@ -1,3 +1,7 @@
+body{
+background-color: #ffff; 
+}
+
 .quartos > img { 
 display: flex; /* contêiner flexível */
 padding: 15px; /* espaçamento imgs*/
@@ -7,6 +11,3 @@ margin-left: 120px; /* margem á esquerda */
 
 }
 
-body{
-background-color: #ffff; 
-}

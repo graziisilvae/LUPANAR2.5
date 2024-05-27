@@ -7,6 +7,7 @@ import LoginForm from './componentes/LoginForm';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Saibamais from './componentes/Saibamais';
 import Cardapio from './componentes/cardapio';
+import Footer from './componentes/Footer';
 
 function App() {
   return (

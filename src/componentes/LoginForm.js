@@ -13,10 +13,15 @@ const LoginForm = () => {
   };
 
   return (
+    <section>
+        <div className='foto-login'>
+         <img src={require('../assets/form.png')} alt="" />
+        </div>
 
     <div className='text'>
     <h2>Entre com sua conta</h2>
-  
+    </div>
+
     <div className="login-form">
       
       <Form onSubmit={handleLogin}>
@@ -42,8 +47,8 @@ const LoginForm = () => {
         </div>
 
         <Button variant="primary" type="submit" block className="custom-button">
-Entrar
-</Button>
+        Entrar
+        </Button>
 
 
         < div className='register-link'>
@@ -53,7 +58,7 @@ Entrar
       </Form>
       </div>
 
-    </div>
+    </section>
   );
 };
 

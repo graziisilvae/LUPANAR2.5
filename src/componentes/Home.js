@@ -19,7 +19,7 @@ function Home() {
               <ul>
                 <span className="subtitle">Suítes</span>
                 <li><a href="#">Os nossos quartos possuem conforto e acomodidade que você merece. A partir de R$99,90</a></li>
-                <button className="btn-filled-dark"><span className="material-symbols-outlined">Saiba mais</span></button>
+                <a href="suites"><button className="btn-filled-dark"><span className="material-symbols-outlined">Adquira agora!</span></button></a>
               </ul>
 
             </li>
@@ -29,7 +29,7 @@ function Home() {
                 
                 <span className="subtitle">Aperitivos e Bebidas</span>
                 <li><a href="#">Dos mais diversos pensados de acordo com as suas preferências individuais, oferecendo as recomendações mais acessíveis.</a></li>
-                <button className="btn-filled-dark"><span className="material-symbols-outlined">Saiba mais</span></button>
+                <a href="cardapio"><button className="btn-filled-dark"><span className="material-symbols-outlined">Saiba mais</span></button></a>
               </ul>
             </li>
           </ul>
