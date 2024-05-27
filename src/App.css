@@ -1,10 +1,10 @@
 :root {
-  --text-01: #6D492C;
-  --light-01: #E0CAA6;
+  --text-01: #849573;
+  --light-01: #B4B897;
   --light-02: #FFFFFF;
-  --brand-01: #6D492C;
+  --brand-01: #849573;
   --brand-02: #ffffff;
-  --card-hover: #6D492C;
+  --card-hover: #ffffff;
   --card-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
   --hover-timing: all 0.2s ease;
   --nav-card-size: 240px;
@@ -136,15 +136,12 @@ header {
 
 
 .card-large > ul {
-  /*    padding: 16px 0 24px;*/
   display: flex;
   flex-direction: column;
   grid-gap: 8px;
   flex: 1;
-  /*    border: 1px solid blue;*/
 
   color: var(--text-01);
-
   padding: 0 40px 40px;
   font-size: 28px;
   font-weight: 600;
@@ -160,14 +157,9 @@ header {
 }
 
 
-button.btn-outline {
-  color: var(--light-01);
-  border-color: var(--light-01);
-}
-
 .card-large.card-dark a,
 .card-large.card-dark > ul {
-  color: var(--text-01);
+  color: #849573;
 }
 
 .card-large.card-light a,
@@ -194,10 +186,10 @@ button {
 
 
 button.btn-outline-light {
-  color: var(--light-01);
+  color: #FFFFFF;
   background: none;
-  color: var(--light-01);
-  border: 2px solid var(--light-01);
+  color: #FFFFFF;
+ 
 }
 
 button.btn-outline-dark {
@@ -208,15 +200,15 @@ button.btn-outline-dark {
 }
 
 button.btn-filled-dark {
-  color: var(--light-01);
+  color: #ffffff;
   background: var(--text-01);
-  color: var(--light-01);
+  color: #FFFFFF;
   border: 2px solid var(--text-01);
 }
 
 .btn-outline-dark:hover {
   background: var(--text-01);
-  border: 2px solid var(--text-01);
+  border: 2px solid #FFFFFF;
 }
 
 .btn-outline-light:hover {
@@ -228,7 +220,7 @@ button.btn-filled-dark {
 
 button:hover,
 .btn-outline-dark.btn-hover-color:hover {
-  color: var(--light-01);
+  color: #FFFFFF;
   border: 2px solid var(--brand-01);
   background: var(--brand-01);
   transition: var(--hover-timing);
@@ -249,8 +241,7 @@ footer {
 section.hero {  /*   AO LADO DA LOGO;*/
   /*    width: 100%;*/
   height: auto;
-  background: var(--brand-02) url('https://i.pinimg.com/564x/a4/5b/1d/a45b1df3c98c154d55c4e3e5d4060d26.jpg') no-repeat center right;
-
+  background: var(--brand-02) url('https://i.pinimg.com/564x/1f/d4/2d/1fd42d53f2b082dfea7c7935800f0721.jpg') no-repeat center right;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -321,13 +312,13 @@ section.hero h1 {
 
 #serv-groom > .card-image { /*    IMAGEM SUITES*/
   background: linear-gradient(45deg, #A90000 0%, #C20505  100%);
-  background: var(--brand-02) url('https://i.pinimg.com/564x/22/a3/79/22a379f75e465084050bbe556c910b6f.jpg') no-repeat center right;
+  background: var(--brand-02) url('https://i.pinimg.com/564x/07/3b/a2/073ba25b940c89dee209dba24522c481.jpg') no-repeat center right;
 
 }
 
 #serv-board > .card-image { /*    IMAGEM BEBIDAS E APERITIVOS*/
-  background: linear-gradient(45deg, #A90000 0%, #C20505 100%);
-  background: var(--brand-02) url('https://i.pinimg.com/564x/bb/52/8c/bb528cb252f6b772e113d4017ff13741.jpg') no-repeat center right;
+ 
+  background: var(--brand-02) url('https://i.pinimg.com/564x/3d/d4/54/3dd454e85f37d54c3cb6e27b61c8df69.jpg') no-repeat center right;
 
 }
 
@@ -348,6 +339,7 @@ section.hero h1 {
 
 section:not(.hero) {
   padding: calc(var(--pg-margin)/2) var(--pg-margin);
+
 }
 
 section h2 {
@@ -355,7 +347,7 @@ section h2 {
   font-weight: 600;
   line-height: 1.2;
   text-align: center;
-  color: var(--text-01);
+  color: #FFFFFF;
   margin-bottom: 32px;
   /*    padding-bottom: 24px;*/
 }
@@ -650,11 +642,13 @@ footer ul li {
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   :root {
-      --pg-margin: 80px;
+      --pg-margin: 60px;
+
   }
 
   section.hero h1 {
       --hero-text: 56px;
+ 
   }
 
 

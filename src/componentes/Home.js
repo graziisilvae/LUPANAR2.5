@@ -3,9 +3,10 @@ function Home() {
       <div className="Home">
 
         <section className="hero">
-          <h1>Garantindo o seu êxtase, Lupanar ideal para o seu patamar. </h1>
+          <h1>Garantindo o seu êxtase, 
+            Lupanar ideal para o seu patamar. </h1>
           <div className="btn-group">
-            <button className="btn-filled-dark"><span className="material-symbols-outlined">Conecte-se</span></button>
+          <a href="form"><button className="btn-filled-dark"><span className="material-symbols-outlined">Conecte-se</span></button></a>
           </div>
         </section>
 

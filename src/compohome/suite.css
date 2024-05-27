@@ -5,5 +5,8 @@ margin-top: 25px; /* espaçamento acima das imgs*/
 float: left; /* posição á esquerda de forma "fixa" */
 margin-left: 120px; /* margem á esquerda */
 
+}
 
+body{
+background-color: #ffff; 
 }

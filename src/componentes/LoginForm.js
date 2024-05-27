@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button, Form } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
 import { AiFillAlert } from "react-icons/ai";
+import '../compohome/login.css';
 
 
 
@@ -13,8 +13,11 @@ const LoginForm = () => {
   };
 
   return (
+
+    <div className='text'>
+    <h2>Entre com sua conta</h2>
+  
     <div className="login-form">
-      <h2>Entre com sua conta</h2>
       
       <Form onSubmit={handleLogin}>
         
@@ -47,10 +50,9 @@ Entrar
           <p> Não tem uma conta? <a href="/register">Registre-se</a></p>
         </div>
 
-
-
-
       </Form>
+      </div>
+
     </div>
   );
 };

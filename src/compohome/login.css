@@ -1,0 +1,28 @@
+.text{
+text-align: center; 
+font-size: 18px;
+padding-top: 150px;   
+}
+
+.login-form{
+display: flex;
+padding-top: 60px;
+justify-content: center;
+}
+
+.login-form{
+background-color: aqua;
+
+}
+.remember-forgot{ /* espaçamento entre itens do forms */
+padding-top: 10px;
+padding-bottom: 25px;
+}
+
+.input-box{
+padding: 15px;    
+}
+
+.register-link{
+padding-top: 20px;
+}

@@ -2,15 +2,16 @@ import '../compohome/suite.css';
 
 function Suites() {
 return (
-      
+
+<body>
 <div className="quartos">
 
-<img src={require('../assets/quarto1.png')} alt="" />
-<img src={require('../assets/quarto2.png')} alt="quarto2" />
-<img src={require('../assets/quarto3.png')} alt="quarto3" />
-       
+<img src={require('../assets/mass1.png')} alt="Quarto Terapy" />
+<img src={require('../assets/quarto2.png')} alt="Quarto Positive" />
 </div>
 
+
+</body>
 
     );
   }
