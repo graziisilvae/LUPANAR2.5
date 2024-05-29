@@ -76,9 +76,13 @@ nav {
     align-items: center;
     grid-gap: 8px;
     line-height: 10%;
-
+  
   }
   
+  .logo, img{
+    width: 250px;
+  }
+
   nav > #logo > span {
     font-size: 32px;
     margin-bottom: 30px;

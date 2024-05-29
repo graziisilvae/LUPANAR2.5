@@ -1,6 +1,5 @@
-.footer-content{
-justify-content: center;
-background-color: aqua;
-padding: 20px;
-
+.footer{
+    background-color: #B4B897;
+    padding: 10px;
+    text-align: center;
 }

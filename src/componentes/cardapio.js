@@ -2,17 +2,21 @@ import '../compohome/cardapio.css'
 
 const Cardapio = () => {
     return(
+    
+  <div>
+      <div className='aperitivos'>
 
-      <section>
-      <div className="Aperitivos">
-      
+
       </div>
-      
-      <div className="Bebidas">
+
+      <div className='bebidas'>
+
+
       </div>
-      
-    </section>
-    )
+
+</div>
+
+    );
 }
 
 export default Cardapio;
